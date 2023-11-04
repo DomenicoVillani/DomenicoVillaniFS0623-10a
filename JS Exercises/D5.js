@@ -82,18 +82,18 @@ for(let i=0; i<cars.length; i++)
 let nomecar = prompt(`inserisci il nome della macchina`)
 let modelcar = prompt(`inserisci il modello della macchina `)
 let colorcar = prompt(`inserisci il colore della macchina`)
-let trimscae = []
+let trimscar = []
 let num = prompt('quanti rifiniture vuoi aggiungere?')
 for(let i=0; i<num ; i++)
 {
   let x=prompt(`inserisci la rifinitura della macchina`)
-  trimscae[i]=x
+  trimscar[i]=x
 }
 let licensePlate = prompt(`inserisci la targa dell'auto `)
-let oggcaso = {brand: nomecar, model: modelcar ,color: colorcar, trims: trimscae}
-let aggiungi = cars.push(oggcaso)
+let oggNuovo = {brand: nomecar, model: modelcar ,color: colorcar, trims: trimscar}
+let aggiungi = cars.push(oggNuovo)
 for(let i=0; i<cars.length ; i++)
-{
+{43
   console.log(cars[i])
 }
 
@@ -147,72 +147,72 @@ while(numericArray[confronto] !== 32 && confronto<numericArray.length){
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
 let numberArray = []
 for(let i=0; i<charactersArray.length; i++){
-switch(charactersArray[i]){
-  case "a":
-    numberArray[i]=1
-    break
-  case "b":
-    numberArray[i]=2
-    break
-  case "c":
-    numberArray[i]=3
-    break
-  case "d":
-    numberArray[i]=4
-    break
-  case "e":
-    numberArray[i]=5
-    break
-  case "f":
-    numberArray[i]=6
-    break
-  case "g":
-    numberArray[i]=7
-    break
-  case "h":
-    numberArray[i]=8
-    break
-  case "i":
-    numberArray[i]=9
-    break
-  case "l":
-    numberArray[i]=10
-    break
-  case "m":
-    numberArray[i]=11
-    break
-  case "n":
-    numberArray[i]=12
-    break
-  case "o":
-    numberArray[i]=13
-    break
-  case "p":
-    numberArray[i]=14
-    break
-  case "q":
-    numberArray[i]=15
-    break
-  case "r":
-    numberArray[i]=16
-    break
-  case "s":
-    numberArray[i]=17
-    break
-  case "t":
-    numberArray[i]=18
-    break
-  case "u":
-    numberArray[i]=19
-    break
-  case "v":
-    numberArray[i]=20
-    break
-  case "z":
-    numberArray[i]=21
-    break
-  default:
-    console.log("non e' una lettera")
-}
-console.log(numberArray[i])
+  switch(charactersArray[i]){
+    case "a":
+      numberArray[i]=1
+      break
+    case "b":
+      numberArray[i]=2
+      break
+    case "c":
+      numberArray[i]=3
+      break
+    case "d":
+      numberArray[i]=4
+      break
+    case "e":
+      numberArray[i]=5
+      break
+    case "f":
+      numberArray[i]=6
+      break
+    case "g":
+      numberArray[i]=7
+      break
+    case "h":
+      numberArray[i]=8
+      break
+    case "i":
+      numberArray[i]=9
+      break
+    case "l":
+      numberArray[i]=10
+      break
+    case "m":
+      numberArray[i]=11
+      break
+    case "n":
+      numberArray[i]=12
+      break
+    case "o":
+      numberArray[i]=13
+      break
+    case "p":
+      numberArray[i]=14
+      break
+    case "q":
+      numberArray[i]=15
+      break
+    case "r":
+      numberArray[i]=16
+      break
+    case "s":
+      numberArray[i]=17
+      break
+    case "t":
+      numberArray[i]=18
+      break
+    case "u":
+      numberArray[i]=19
+      break
+    case "v":
+      numberArray[i]=20
+      break
+    case "z":
+      numberArray[i]=21
+      break
+    default:
+      console.log("non e' una lettera")
+  }
+  console.log(numberArray[i])
 }
