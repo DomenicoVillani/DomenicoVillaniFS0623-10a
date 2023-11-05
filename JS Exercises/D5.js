@@ -93,7 +93,7 @@ let licensePlate = prompt(`inserisci la targa dell'auto `)
 let oggNuovo = {brand: nomecar, model: modelcar ,color: colorcar, trims: trimscar}
 let aggiungi = cars.push(oggNuovo)
 for(let i=0; i<cars.length ; i++)
-{43
+{
   console.log(cars[i])
 }
 
